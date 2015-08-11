@@ -1,0 +1,16 @@
+{
+  "name": "hapitutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "good": "^6.3.0",
+    "good-console": "^5.0.2",
+    "hapi": "^8.8.1"
+  }
+}
