@@ -13,6 +13,7 @@
   "dependencies": {
     "good": "^6.3.0",
     "good-console": "^5.0.2",
-    "hapi": "^8.8.1"
+    "hapi": "^8.8.1",
+    "q": "^1.4.1"
   }
 }

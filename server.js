@@ -1,5 +1,6 @@
 var Hapi = require('hapi');
 var Good = require('good');
+var logic = require('./server/logic');
 
 var server = new Hapi.Server();
 server.connection({ port: (process.env.PORT || 3000) });
@@ -17,7 +18,7 @@ server.route({
 	method: 'GET',
 	path: '/{name}',
 	handler: function (request, reply) {
-		reply('Hello,' + encodeURIComponent(request.params.name) + '!');
+		logic.upperCase(request, reply);
 	}
 });
 
