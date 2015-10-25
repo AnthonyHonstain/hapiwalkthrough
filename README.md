@@ -5,7 +5,10 @@ Using pm2, hapi, good to experiment with a node servicce, running locally and in
 
 # Required
 ```
-npm install pm2 -g
+// If your running on ubuntu 15.04 - followed http://theholmesoffice.com/node-js-fundamentals-how-to-upgrade-the-node-js-version/
+// Instead of deal with debian package hijinks http://stackoverflow.com/questions/21168141/can-not-install-packages-using-node-package-manager-in-ubuntu
+
+sudo npm install pm2 -g
 npm install
 ```
 
@@ -17,7 +20,7 @@ npm install
 npm run-script dev
 
 // Production Start
-node start
+node server
 
 // Working in the dev enviornment we make use of pm2.
 pm2 status
